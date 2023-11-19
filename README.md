@@ -6,7 +6,7 @@
 
 ### Running mongo-express for mongodb: `docker run -p 8081:8081 -d -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb mongo-express`
 
-This demo app shows a simple user profile app set up using 
+This demo app shows a simple user profile app set up using
 - index.html with pure js and css styles
 - nodejs backend with express module
 - mongodb for data storage
